@@ -154,7 +154,8 @@ def problem5(seq_of_seq):
             z = 0
             z = item1[0]
             for item2 in item1:
-                if item2 > z:z = item2
+                if item2 > z:
+                    z = item2
                 if item2 == item1[len(item1)-1]:
                     x = x + [z]
     return x
